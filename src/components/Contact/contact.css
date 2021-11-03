@@ -1,0 +1,33 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.contact-title {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.contact-form {
+  width: 40%;
+}
+.contactForm {
+  width: 100%;
+}
+.contact-form-p {
+  text-align: left;
+}
+.contact-redes {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contact-redes-title {
+  font-size: 17px;
+}
+.contact-redes-p {
+  font-size: 13px;
+}
+.contact-redes-container {
+  margin-top: 5%;
+}
