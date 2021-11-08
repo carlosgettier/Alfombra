@@ -96,8 +96,10 @@ export const Home = () => {
                 </div>
             </div>
             <div className="showroom-container">
-                <h2 className="showroom"> Our Showroom</h2>
-                <a href="/contact" className=" link-showroom"><h4 className="animado">Make an appointment</h4></a>
+                <div className="titulos-show">
+                    <h2 className="showroom"> Our Showroom</h2>
+                    <a href="/contact" className=" link-showroom"><h4 className="animado">Make an appointment</h4></a>
+                </div>
                 <div className="container-img-showroom">
                     <div className="showroom-bsAs">
                         <img className="img-showroom" src={scaled} />
@@ -139,7 +141,7 @@ export const Home = () => {
                     </div>
                     <div className="showroom-NYC">
                         <img className="img-showroom" src={NYC} />
-                        <p className="title-BuenosAires">NEW YORK SHOWROOM</p>
+                        <p className="title-NYC">NEW YORK SHOWROOM</p>
                         <input type="checkbox" id="btn-modals" />
                         <label for="btn-modals" className="lbl-modals">see more</label>
 
@@ -184,10 +186,10 @@ export const Home = () => {
                 <div className="conteiner-catalogue">
                     <div>
                         <img className="catalogue-img" src={catalogue} />
-                        <a href={Pdf} target="_blank"> <h3 className="animado catalogue-title-img" >Catalogue 2019</h3></a>
+                        <a href={Pdf} target="_blank" className="link-catalogos"> <h3 className="animado catalogue-title-img" >Catalogue 2019</h3></a>
                     </div>
                     <div>
-                        <a href={PdfCollection} target="_blank"> <img className="catalogue-img" src={presskit} />
+                        <a href={PdfCollection} target="_blank" className="link-catalogos"> <img className="catalogue-img" src={presskit} />
                             <h3 className="animado catalogue-title-img" >Catalogue 2019</h3></a>
                     </div>
                     <div>
@@ -206,7 +208,7 @@ export const Home = () => {
 
             </div>
             <div className="made-container">
-                <a href="/production" className="made-prin-title">Our Production</a>
+                <h1 className="made-prin-title">Our Production</h1>
                 <div className="container-img-made">
                     <div className="img-title-made">
                         <img className="img-made" src={product} />

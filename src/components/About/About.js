@@ -32,10 +32,10 @@ export const About = () => {
                     <div className="container-about-j">
                         <div className="about-container-p">
                             <h2 className="title-h2">Julia Tonconogy Pfeiffer</h2>
-                            <p>JT.Pfeiffer is the outcome of a lifetime experience engaged in the Design World, involving creative direction, interior design and visual communication.</p>
-                            <p>Her passion for design started to grow naturally from a very young age, coming from a family that has been dedicated to architecture for almost a Century, design was part of he ever day life. Born and raised in Buenos Aires, she lived and worked in New York and Miami for many years, which were crucial in her professional growth.</p>
-                            <p>Julia´s work includes collaborations and commissions with renowned brands and large-scale projects such as hotels, residential and commercial buildings, interior design for private residences, public areas, along with product, furniture, and graphic design, as well as brand identity for numerous clients.</p>
-                            <p>As a passionate soul, she enjoys challenging perceptions of people and places transcending through design, in a world of colors, textures, and shapes that feel alive.</p>
+                            <p className="about-p-j">JT.Pfeiffer is the outcome of a lifetime experience engaged in the Design World, involving creative direction, interior design and visual communication.</p>
+                            <p className="about-p-j">Her passion for design started to grow naturally from a very young age, coming from a family that has been dedicated to architecture for almost a Century, design was part of he ever day life. Born and raised in Buenos Aires, she lived and worked in New York and Miami for many years, which were crucial in her professional growth.</p>
+                            <p className="about-p-j">Julia´s work includes collaborations and commissions with renowned brands and large-scale projects such as hotels, residential and commercial buildings, interior design for private residences, public areas, along with product, furniture, and graphic design, as well as brand identity for numerous clients.</p>
+                            <p className="about-p-j">As a passionate soul, she enjoys challenging perceptions of people and places transcending through design, in a world of colors, textures, and shapes that feel alive.</p>
                         </div>
                         <img src={juliaPfeiffer} className="img-about-j" />
                     </div>
