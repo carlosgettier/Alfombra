@@ -1,16 +1,17 @@
 import React from 'react'
-import blueCaratula from '../../assets/image/BlueCaratula.jpg'
-
+import { Noticias } from '../Noticias/Noticias'
+import './news.css'
 export const News = () => {
     return (
-        <div>
-            <h1>OUR NEWS</h1>
+        <div className="news">
+            <h1 className="title-new">NEWS</h1>
+            <div className="show-news">
+                <Noticias />
+                <Noticias />
+                <Noticias />
+                <Noticias />
+                <Noticias />
 
-            <div>
-                <img src={blueCaratula} />
-                <h3>Luisa in Power Blue</h3>
-                <p>New York<br />
-                    junio,2019</p>
             </div>
         </div>
     )

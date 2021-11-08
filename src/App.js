@@ -13,6 +13,8 @@ import { Press } from './components/Press/Press';
 import { Contact } from './components/Contact/Contact';
 import { About } from './components/About/About';
 import { Production } from './components/Production/Production';
+import { New } from './components/New/New';
+import { Prensa } from './components/Prensa/Prensa';
 
 
 
@@ -22,6 +24,12 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
+          <Route exact path="/category/press/:title">
+            <New />
+          </Route>
+          <Route exact path="/category/news/:title">
+            <Prensa />
+          </Route>
           <Route exact path="/category/news">
             <News />
           </Route>

@@ -1,0 +1,26 @@
+.new {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.new-p {
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.new-img {
+  width: 100%;
+}
+.new-title-prin {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3%;
+  padding-top: 0px;
+}
+.new-img-img {
+  width: 50%;
+}

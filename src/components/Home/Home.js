@@ -6,7 +6,7 @@ import slide2 from '../../assets/image/foto-slide-4.jpg'
 import slide3 from '../../assets/image/foto-slide-6.jpg'
 import glorious from '../../assets/image/gloriusrupture.jpg'
 import lejardinjuliaPortrait from '../../assets/image/LE-JARDIN-JULIA-PORTRAIT.jpg'
-import scaled from '../../assets/image/foto-scaled.jpg'
+import scaled from '../../assets/image/buenosAires.png'
 import catalogue from '../../assets/image/catalogue.jpg'
 import presskit from '../../assets/image/presskit.jpg'
 import product from '../../assets/image/produc.jpg'
@@ -78,30 +78,105 @@ export const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+            <div className="home-new">
+                <h1 className="home-title">Jt.pfeiffer</h1>
+                <h3 className="home-title-p animado">Nuestras alfombras son piezas únicas creadas para trascender el tiempo como obra de arte.</h3>
+                <div className="news-home">
 
-            <h1 className="home-title">Jt.pfeiffer</h1>
-            <h3 className="home-title-p animado">Nuestras alfombras son piezas únicas creadas para trascender el tiempo como obra de arte.</h3>
-            <div className="news-home">
-                <div className="news-show">
-                    <img className="img-news" src={glorious} />
-                    <h3 className="animado news-title" >Glorious Rupture  </h3>
+                    <div className="news-show">
+                        <img className="img-news" src={glorious} />
+                        <h3 className="animado news-title" >Glorious Rupture  </h3>
+
+                    </div>
+                    <div className="news-show">
+                        <img className="img-news" src={lejardinjuliaPortrait} />
+                        <h3 className="animado news-title">Glorious Rupture</h3>
+                    </div>
 
                 </div>
-                <div className="news-show">
-                    <img className="img-news" src={lejardinjuliaPortrait} />
-                    <h3 className="animado news-title">Glorious Rupture</h3>
-                </div>
-
             </div>
             <div className="showroom-container">
                 <h2 className="showroom"> Our Showroom</h2>
                 <a href="/contact" className=" link-showroom"><h4 className="animado">Make an appointment</h4></a>
                 <div className="container-img-showroom">
-                    <img className="img-showroom" src={scaled} />
-                    <img className="img-showroom" src={NYC} />
-                    <img className="img-showroom" src={rugs} />
-                    <img className="img-showroom" src={scaled} />
+                    <div className="showroom-bsAs">
+                        <img className="img-showroom" src={scaled} />
+                        <p className="title-BuenosAires">BUENOS AIRES SHOWROOM</p>
+                        <input type="checkbox" id="btn-modal" />
+                        <label for="btn-modal" className="lbl-modal">see more</label>
+
+                        <div className="modal">
+                            <div className="contenedor" >
+                                <header>BUENOS AIRES SHOWROOM </header>
+                                <label for="btn-modal">X</label>
+                                {/* <div className="contenido">
+
+                                </div> */}
+                                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
+                                            <img src={scaled} className="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={slide1} className="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={slide1} className="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                    </div>
+                                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span className="visually-hidden">Previous</span>
+                                    </button>
+                                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="showroom-NYC">
+                        <img className="img-showroom" src={NYC} />
+                        <p className="title-BuenosAires">NEW YORK SHOWROOM</p>
+                        <input type="checkbox" id="btn-modals" />
+                        <label for="btn-modals" className="lbl-modals">see more</label>
+
+                        <div className="modal">
+                            <div className="contenedors" >
+                                <header>SHOWROOM NEW YORK </header>
+                                <label for="btn-modals">X</label>
+                                {/* <div className="contenido">
+                                    <p>hola hola hoal</p>
+                                </div> */}
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={slide1} class="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={slide3} class="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={rugs} class="d-block w-100 tamañoFoto" alt="..." />
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
 
             </div>
             <div className="catalogue">

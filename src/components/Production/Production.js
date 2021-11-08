@@ -11,7 +11,7 @@ export const Production = () => {
         <div>
             <div className="img-prin-production">
                 <img src={banaras} className="img-production" />
-                <h1 className="img-title-production">PRODUCTION</h1>
+                <h1 className="img-title-production">Production</h1>
             </div>
             <div className="production-second">
                 <div className="production-second-text">
