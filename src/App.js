@@ -15,6 +15,7 @@ import { About } from './components/About/About';
 import { Production } from './components/Production/Production';
 import { New } from './components/New/New';
 import { Prensa } from './components/Prensa/Prensa';
+import { Administracion } from './components/Administracion/Administracion';
 
 
 
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route exact path="/category/press">
             <Press />
+          </Route>
+          <Route exact path="/administracion">
+            <Administracion />
           </Route>
           <Route exact path="/production">
             <Production />

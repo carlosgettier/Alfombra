@@ -27,7 +27,6 @@
   margin-right: 43%;
   margin-left: 37%;
   margin-top: 20%;
-  color: rgb(255, 255, 255);
   font-size: 65px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -36,8 +35,8 @@
 .production-second {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  margin-top: 3%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -45,21 +44,19 @@
 .production-second-text {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  background-color: rgba(175, 165, 134, 0.76);
+  width: 50%;
   padding: 15px;
 }
 .img-second {
-  width: 30%;
+  width: 40%;
   height: 500px;
 }
 .production-second-title {
   text-align: left;
-  color: rgb(88, 69, 34);
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   padding-left: 15px;
-  text-decoration: underline;
+
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -87,11 +84,8 @@
   font-family: "Montserrat", sans-serif;
   text-align: left;
   padding: 30px;
-  background-color: rgba(180, 158, 92, 0.76);
 }
 .product-third-title {
-  color: rgb(122, 80, 32);
-  text-decoration: underline;
 }
 .img-product-third {
   width: 50%;
@@ -104,8 +98,6 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-
-  margin-bottom: 5%;
   position: relative;
 }
 .product-fourth::before {
@@ -135,4 +127,15 @@
 }
 .product-fourth-p {
   font-size: 20px;
+}
+/*-------5-----*/
+.product5 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-5 {
+  width: 40%;
 }

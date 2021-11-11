@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: rgba(240, 232, 232, 0.876);
-}
+} */
 .altura {
   height: 450px;
 }
@@ -12,7 +12,6 @@ body {
 }
 /*---------NEWS---------*/
 .home-new {
-  background-color: #eec170;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -23,74 +22,71 @@ body {
   font-size: 45px;
   font-family: "Montserrat", sans-serif;
 }
-.news-show {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 .home-title-p {
+  text-align: center;
   font-size: 20px;
+  font-family: helvetica;
 }
-.news-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 0%;
-  padding-bottom: 0px;
-}
-.img-news {
-  height: 500px;
-  width: 100%;
+.news-show {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
 }
-
+.img-news {
+  width: 40%;
+}
 .news-title {
-  text-align: center;
-  margin-top: -25%;
-  margin-left: 3%;
-  margin-right: 3%;
-  font-size: 35px;
-  color: rgb(10, 10, 10);
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  margin-top: 20%;
+  font-family: helvetica;
 }
-
+.news-title:hover {
+  text-decoration: underline;
+}
 /*-----Showroom---*/
 .link-showroom {
   text-decoration: none;
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  padding-top: 6%;
-  padding-left: 3%;
+  font-size: 15px;
 }
 .showroom-container {
-  background-color: #f1dab3;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 .titulos-show {
   display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 4%;
 }
 .showroom {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(112, 95, 64);
+  font-family: "helvetica", sans-serif;
   font-size: 60px;
-  text-align: left;
-  margin-left: 5%;
-  padding-top: 3%;
-  text-decoration: underline;
 }
+
 .container-img-showroom {
   display: flex;
-  padding-bottom: 3%;
+  flex-direction: column;
+}
+.contenedor-buenosaires {
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-nycity {
+  display: flex;
+}
+.bsastitulo {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.bsastitulo:hover {
+  text-decoration: underline;
 }
 .showroom-bsAs {
   display: flex;
@@ -122,11 +118,17 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
+.nyctitulo {
+  width: 50%;
+  margin-top: 6%;
+}
+.nyctitulo:hover {
+  text-decoration: underline;
+}
 .showroom-NYC {
   display: flex;
   flex-direction: column;
   position: relative;
-
   width: 50%;
 }
 .showroom-NYC::before {
@@ -141,11 +143,8 @@ body {
 .img-showroom {
   width: 90%;
   height: 300px;
-  margin-bottom: 3%;
 }
-.img-showroom:hover {
-  transform: scale(1, 1.05);
-}
+
 /*---------modal buenos aires------*/
 body .modal {
   display: flex;
@@ -271,15 +270,15 @@ body .modal {
 /*------FUNDACION-----*/
 .goodweave {
   display: flex;
-  background-color: rgba(179, 162, 114, 0.76);
-
+  justify-content: space-around;
+  margin-top: 5%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 .img-goodweave {
-  width: 50%;
-  height: 400px;
+  width: 30%;
+  height: 250px;
 }
 .goodweave-title {
   display: flex;
@@ -287,40 +286,77 @@ body .modal {
   width: 50%;
 }
 .goodweave-title-title {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: underline;
-  color: rgb(153, 128, 87);
   text-align: left;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 5%;
   padding-bottom: 10px;
-  margin-left: 10%;
+  margin-left: 0%;
 }
 .goodweave-title-p {
   font-family: "Montserrat", sans-serif;
-  text-align: left;
-  font-size: 18px;
+  text-align: justify;
+  font-size: 15px;
   width: 70%;
-  margin-left: 10%;
+  margin-left: 0%;
 }
+.goodweave-title-p:hover {
+  text-decoration: underline;
+}
+/*-------NAVEGADOR-----*/
 
+.navegador-lista {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.navegador-lista-primero {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navegador-lista-primero li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  width: 30%;
+  text-align: left;
+}
+.linkde-nav {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  font-family: helvetica;
+}
+.linkde-nav:hover {
+  font-weight: bold;
+  color: #000;
+}
+.navegador-lista-segundo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navegador-lista-segundo li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  width: 30%;
+  text-align: left;
+}
 /*------CATALOGUE-----*/
 .catalogue {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #d4b290;
-  margin-top: 0;
 }
 .catalogue-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  color: rgb(102, 79, 29);
-  text-decoration: underline;
-  padding-top: 1%;
+  font-family: helvetica, sans-serif;
+  font-size: 60px;
   text-align: left;
-  padding-left: 6%;
-  margin-bottom: 2%;
+  padding-right: 6%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
 }
 .link-catalogos {
   text-decoration: none;
@@ -338,17 +374,49 @@ body .modal {
   color: #000;
 }
 .catalogue-img {
-  height: 350px;
-  transition: all 300ms;
+  height: 400px;
+  transition: all 500ms;
   position: relative;
+  right: 22%;
+}
+.catalogue-img-2020 {
+  height: 400px;
+  transition: all 500ms;
+  position: relative;
+  left: 22%;
 }
 .catalogue-img:hover {
   transform: scale(1, 1.05);
 }
-.conteiner-catalogue {
+.catalogue-2019 {
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+}
+.img-2019 {
+  width: 50%;
+}
+.titulo2019 {
+  width: 50%;
+  text-align: left;
+  padding-top: 16%;
+}
+.catalogue-2020 {
+  display: flex;
+  width: 100%;
+}
+.titulo2020 {
+  width: 50%;
+  text-align: right;
+  padding-top: 16%;
+}
+.img2020 {
+  width: 50%;
+}
+.conteiner-catalogue {
   grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-------made------*/
@@ -360,13 +428,12 @@ body .modal {
 }
 .made-prin-title {
   text-decoration: none;
-  font-size: 40px;
-  color: rgb(182, 141, 95);
+  font-size: 60px;
+
   text-align: left;
   margin-left: 5%;
   padding-top: 2%;
   margin-bottom: 2%;
-  text-decoration: underline;
 }
 .made-prin-title :hover {
   font-weight: bold;
@@ -434,7 +501,6 @@ body .modal {
   width: 50%;
 }
 .made-container {
-  background-color: rgba(175, 165, 134, 0.76);
   width: 90%;
   margin-left: auto;
   margin-right: auto;
