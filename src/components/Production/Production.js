@@ -1,11 +1,12 @@
 import React from 'react'
 import './production.css'
 import man from '../../assets/image/man_1_hires.jpg'
-import banaras from '../../assets/image/Banaras_15_hires.jpg'
+import banaras from '../../assets/image/video.gif'
 import banaras1 from '../../assets/image/Banaras_13_hires.jpg'
 import foto from '../../assets/image/4063_2A.jpg'
 import pic1 from '../../assets/image/4997_26A.jpg'
 import pic2 from '../../assets/image/IMG_7301.jpg'
+
 
 export const Production = () => {
     return (
@@ -49,6 +50,7 @@ export const Production = () => {
                     <p className="production-second-p" >Wool is regarded as the strongest, most resilient rug fiber choicefiber, and hand knotted is one the most durable ways to make a carpet. When properly cared for, fine wool rugs can last a lifetime.</p>
                 </div>
             </div>
+
         </div>
     )
 }

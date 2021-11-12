@@ -1,14 +1,15 @@
 /* body {
   background-color: rgba(240, 232, 232, 0.876);
 } */
-.altura {
-  height: 450px;
-}
-
-.anchoCarrusel {
-  width: 100%;
+.fotosPrin {
+  width: 90%;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
+}
+.img-princ-foto {
+  width: 50%;
 }
 /*---------NEWS---------*/
 .home-new {
@@ -25,6 +26,7 @@
 .home-title-p {
   text-align: center;
   font-size: 20px;
+  padding-bottom: 25px;
   font-family: helvetica;
 }
 .news-show {
@@ -37,8 +39,10 @@
 .img-news {
   width: 40%;
 }
+.news-tit {
+  margin-top: 15%;
+}
 .news-title {
-  margin-top: 20%;
   font-family: helvetica;
 }
 .news-title:hover {

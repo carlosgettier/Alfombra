@@ -15,6 +15,8 @@ import rugs from '../../assets/image/RUGS-NYC-.jpg'
 import madeinnepal from '../../assets/image/madeinnepal.jpg'
 import goodweave from '../../assets/image/goodweave.jpg'
 import Pdf from '../../uploads/PhotoBook-MAY-2019.pdf'
+import imagenpri from '../../assets/image/imagenprincipal.jpg'
+
 import PdfCollection from '../../uploads/JT.PFEIFFER-COLLECTION-2019.pdf'
 export const Home = () => {
 
@@ -36,19 +38,25 @@ export const Home = () => {
     })
     return (
         <div>
-
+            <div className="fotosPrin">
+                <img src={imagenpri} className="img-princ-foto" />
+                <img src={imagenpri} className="img-princ-foto" />
+            </div>
             <div className="home-new">
                 <h1 className="home-title">Jt.pfeiffer</h1>
                 <h3 className="home-title-p animado">Nuestras alfombras son piezas únicas creadas para trascender el tiempo como obra de arte.</h3>
                 <div className="news-show">
                     <img className="img-news" src={glorious} />
-                    <h3 className=" news-title" >THE EYE OF THE BEHOLDER </h3>
-                    <p className=" news-title">At Casa Mass </p>
-
+                    <div className="news-tit">
+                        <h3 className=" news-title" >THE EYE OF THE BEHOLDER </h3>
+                        <p className=" news-title">At Casa Mass </p>
+                    </div>
                 </div>
                 <div className="news-show">
-                    <h3 className=" news-title">IN DIALOGUE WITH ART</h3>
-                    <p className=" news-title">At Miranda Bosch Gallery </p>
+                    <div className="news-tit">
+                        <h3 className=" news-title">IN DIALOGUE WITH ART</h3>
+                        <p className=" news-title">At Miranda Bosch Gallery </p>
+                    </div>
                     <img className="img-news" src={lejardinjuliaPortrait} />
                 </div>
 

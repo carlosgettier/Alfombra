@@ -4,7 +4,7 @@
   flex-direction: column;
   position: relative;
 }
-.img-prin-production::before {
+.img-prin-production::after {
   content: "";
   position: absolute;
 
@@ -12,7 +12,7 @@
   height: 600px;
   margin-top: 2%;
   margin-left: 5%;
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(0, 0, 0, 0.226);
 }
 .img-production {
   width: 90%;
@@ -30,13 +30,13 @@
   font-size: 65px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.794);
 }
 /*-------- second----------*/
 .production-second {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 3%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -123,6 +123,8 @@
 }
 .product-fourth-h1 {
   font-size: 40px;
+}
+.product-fourth-h1:hover {
   text-decoration: underline;
 }
 .product-fourth-p {
