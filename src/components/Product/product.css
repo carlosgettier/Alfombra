@@ -1,0 +1,73 @@
+.product {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.product h1 {
+  margin-top: 3%;
+}
+.show-product {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 7%;
+}
+.tarjeta-show {
+  border: 1px solid black;
+  width: 30%;
+  margin-top: 10%;
+  height: 300px;
+}
+.tarjeta-show img {
+  width: 30%;
+  height: 300px;
+}
+.tarjeta-show p {
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 10%;
+}
+.tarjeta-show h4 {
+  padding: 25px 10px;
+}
+/*--------COLORES-------*/
+.color {
+  width: 100%;
+}
+.color h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+.img-color {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.img-color img {
+  width: 20%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+/*-----indicaciones---*/
+.indicaciones p {
+  text-align: left;
+  font-size: 18px;
+}
+/*-----vistas----*/
+.vistas {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.vistas img {
+  width: 20%;
+  margin-left: 2%;
+}

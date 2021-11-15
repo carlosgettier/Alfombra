@@ -16,6 +16,8 @@ import { Production } from './components/Production/Production';
 import { New } from './components/New/New';
 import { Prensa } from './components/Prensa/Prensa';
 import { Administracion } from './components/Administracion/Administracion';
+import { Gallery } from './components/Gallery/Gallery';
+import { Product } from './components/Product/Product';
 
 
 
@@ -42,6 +44,12 @@ function App() {
           </Route>
           <Route exact path="/production">
             <Production />
+          </Route>
+          <Route exact path="/gallery/:title">
+            <Product />
+          </Route>
+          <Route exact path="/gallery">
+            <Gallery />
           </Route>
           <Route exact path="/contact">
             <Contact />
