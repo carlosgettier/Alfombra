@@ -1,6 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios'
 
 export const Administracion = () => {
+
+    const [imagenes, setimagenes] = useState(null)
+
+    const subirArchivos = (e) => {
+        setimagenes(e.target.files)
+    }
+    const [datos, setdatos] = useState({
+        titulo: "",
+        desarrollo: ""
+    })
+
+    const text = (e) => {
+        setdatos({
+            ...datos,
+            [e.target.name]: e.target.value
+        })
+    }
+    const enviar = (e) => {
+        e.preventDefault()
+        console.log(imagenes)
+
+        const fDate = new FormData()
+        for (let i = 0; i < imagenes.length; i++) {
+
+
+            fDate.append("image", imagenes[i])
+        }
+        fDate.append("titulo", datos.titulo)
+        fDate.append("desarrollo", datos.desarrollo)
+        axios({
+            method: 'post',
+            url: 'http://localhost:3001/api/prensa',
+            data: fDate
+
+
+        }).then(res => console.log(res))
+
+
+    }
+
+
     return (
         <div>
             <h1>ADMINISTRACION</h1>
@@ -26,6 +68,17 @@ export const Administracion = () => {
                     </div>
                 </div>
             </nav>
+
+            <form onSubmit={enviar}>
+
+                <label for="rutaImagenesSecundarias">Imagenes secundarias del producto</label>
+                <small id="errorImagenS"></small>
+                <input id="rutaImagenesSecundarias" type="file" name="ImagenesSecundarias"
+                    multiple onChange={subirArchivos} />
+                <input type="text" name="titulo" onChange={text} />
+                <input type="text" name="desarrollo" onChange={text} />
+                <button type="submit">subir</button>
+            </form>
 
         </div>
     )

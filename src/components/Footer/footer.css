@@ -4,10 +4,25 @@
   margin-top: 6%;
   margin-bottom: 6%;
 }
+.footer img {
+  width: 10%;
+}
 .footer-title {
   font-size: 15px;
   color: rgb(6, 6, 68);
 }
 .footerP {
   font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

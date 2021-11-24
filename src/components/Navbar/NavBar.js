@@ -6,9 +6,9 @@ export const NavBar = () => {
 
         <header>
 
-
+            {/* <a>Jt.pfeiffer</a> */}
             <input type="checkbox" id="btn-menu" />
-            <label for="btn-menu">Jt.pfeiffer</label>
+            <label for="btn-menu">menu</label>
 
             <nav className="menu">
                 <ul>

@@ -515,3 +515,171 @@ body .modal {
   opacity: 0;
   transition: all 0.5s;
 }
+
+@media (max-width: 600px) {
+  .news-show {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-news {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-buenosaires {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .showroom-bsAs {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-showroom {
+    width: 100%;
+  }
+  .showroom-bsAs::before {
+    width: 100%;
+  }
+  .title-BuenosAires {
+    margin-top: 60%;
+  }
+  .lbl-modal {
+    margin-top: 70%;
+    margin-right: 37%;
+  }
+  .bsastitulo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contenedor-nycity {
+    display: flex;
+    flex-direction: column;
+  }
+  .nyctitulo {
+    width: 100%;
+  }
+  .showroom-NYC {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .showroom-NYC::before {
+    width: 100%;
+  }
+  .title-NYC {
+    margin-top: 60%;
+    margin-left: 15%;
+  }
+  .lbl-modals {
+    margin-top: 70%;
+    margin-left: 37%;
+  }
+  /*-----modal------*/
+  .contenedor {
+    width: 75%;
+    margin-left: 7%;
+    height: 300px;
+  }
+  .contenedors {
+    width: 75%;
+    margin-left: 7%;
+    height: 300px;
+  }
+  .navegador-lista-primero {
+    display: flex;
+    flex-direction: column;
+  }
+  .navegador-lista-primero li {
+    width: 90%;
+  }
+  .navegador-lista-segundo {
+    display: flex;
+    flex-direction: column;
+  }
+  .navegador-lista-segundo li {
+    width: 90%;
+  }
+  /*----- CATALOGOS-----*/
+  .catalogue-title {
+    font-size: 50px;
+  }
+  .catalogue-2019 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-2019 {
+    width: 100%;
+  }
+  .titulo2019 {
+    width: 100%;
+    text-align: center;
+  }
+  .catalogue-img {
+    right: 0%;
+  }
+  .catalogue-2020 {
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo2020 {
+    width: 100%;
+    text-align: center;
+  }
+  .img2020 {
+    width: 100%;
+  }
+  .catalogue-img-2020 {
+    left: 0%;
+  }
+  .goodweave {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-goodweave {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .goodweave-title {
+    width: 90%;
+  }
+  .goodweave-title-p {
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+  }
+  .container-img-made {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-img-made::before {
+    top: 0%;
+    height: 100%;
+  }
+  .img-title-made {
+    width: 100%;
+  }
+  .img-made {
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .made-title {
+    margin-top: 75%;
+    margin-left: 7%;
+  }
+  .made-a {
+    margin-top: 95%;
+    margin-left: 30%;
+
+    width: 40%;
+  }
+  .made-subtitle {
+    margin-top: 65%;
+    margin-left: 10%;
+  }
+}
