@@ -7,7 +7,7 @@ import './About.css'
 
 export const About = () => {
     return (
-        <div>
+        <div className="about">
             <div className="prin-about">
                 <img src={hilares} className="img-prin-about" />
                 <h1 className="title-about-prin">ABOUT</h1>

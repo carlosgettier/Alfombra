@@ -31,3 +31,17 @@
 .contact-redes-container {
   margin-top: 5%;
 }
+@media (max-width: 600px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-redes {
+    display: none;
+  }
+}
