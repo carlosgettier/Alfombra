@@ -684,6 +684,9 @@ body .modal {
   }
 }
 @media (min-width: 601px) and (max-width: 900px) {
+  .img-princ-foto {
+    height: 300px;
+  }
   .showroom-container {
     width: 80%;
     margin-left: auto;
@@ -758,23 +761,20 @@ body .modal {
     width: 90%;
   }
   .made-title {
-   font-size: 30px;
-   margin-top: 35%;
+    font-size: 30px;
+    margin-top: 35%;
     margin-left: 10%;
-    
   }
-  
+
   .made-a {
     margin-top: 45%;
     margin-left: 18%;
-  width: 19%;
+    width: 19%;
   }
   .made-subtitle {
-    
     font-size: 25px;
-   
+
     margin-top: 35%;
     margin-left: 8%;
-    
   }
 }
