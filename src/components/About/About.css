@@ -129,3 +129,27 @@
     width: 100%;
   }
 }
+@media (min-width: 601px) and (max-width: 900px) {
+  .img-prin-about {
+   
+    height: 400px;
+   
+  }
+  .title-about-prin {
+   
+    margin-left: 35%;
+    margin-right: 50%;
+    margin-top: 25%;
+    
+    font-size: 50px;
+    
+  }
+  .about-p {
+    font-size: 12px;
+    margin-left:10%;
+  
+  }
+  .about-p-j {
+    font-size: 11px;
+  }
+}

@@ -683,3 +683,98 @@ body .modal {
     margin-left: 10%;
   }
 }
+@media (min-width: 601px) and (max-width: 900px) {
+  .showroom-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-buenosaires {
+  }
+  .showroom-bsAs {
+    width: 50%;
+  }
+  .showroom-bsAs::before {
+    width: 99.9%;
+  }
+  .showroom-NYC::before {
+    width: 100%;
+  }
+  .img-showroom {
+    width: 99.9%;
+  }
+  .bsastitulo {
+    width: 50%;
+    margin-top: 15%;
+    margin-right: 0%;
+  }
+  .title-BuenosAires {
+    left: 15%;
+    margin-top: 63%;
+  }
+  .lbl-modal {
+    margin-top: 72%;
+    margin-right: 35%;
+  }
+  .title-NYC {
+    margin-top: 53%;
+    margin-left: 15%;
+  }
+  .lbl-modals {
+    margin-top: 62%;
+    margin-left: 38%;
+  }
+
+  .catalogue {
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .catalogue-2019 {
+    display: flex;
+    width: 100%;
+
+    margin-left: 6%;
+  }
+  .img-2019 {
+    width: 50%;
+  }
+  .catalogue-2020 {
+    width: 90%;
+  }
+  .titulo2020 {
+    width: 50%;
+    text-align: right;
+    padding-top: 16%;
+  }
+  .img2020 {
+    width: 50%;
+  }
+  .goodweave {
+    width: 90%;
+  }
+  .navegador-lista {
+    width: 90%;
+  }
+  .made-title {
+   font-size: 30px;
+   margin-top: 35%;
+    margin-left: 10%;
+    
+  }
+  
+  .made-a {
+    margin-top: 45%;
+    margin-left: 18%;
+  width: 19%;
+  }
+  .made-subtitle {
+    
+    font-size: 25px;
+   
+    margin-top: 35%;
+    margin-left: 8%;
+    
+  }
+}
