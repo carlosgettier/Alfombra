@@ -687,6 +687,9 @@ body .modal {
   .img-princ-foto {
     height: 300px;
   }
+  .img-news {
+    height: 300px;
+  }
   .showroom-container {
     width: 80%;
     margin-left: auto;
